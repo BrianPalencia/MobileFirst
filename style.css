@@ -133,7 +133,7 @@ main {
 .main-tables-container {    
     display: flex;
     height: 360px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
@@ -440,7 +440,7 @@ main {
 .plans-container--slider {
     display: flex;
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
